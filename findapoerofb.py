@@ -1,0 +1,13 @@
+'''Given numbers A,B find A^B.
+Input Size : 1 <= A <= 5 <= B <= 50
+Sample Testcase :
+INPUT
+3 4
+OUTPUT
+81
+'''
+
+a,b = input().split()
+inta=int(a)
+intb = int(b)
+print(inta**intb)
