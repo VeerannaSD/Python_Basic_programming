@@ -27,14 +27,11 @@ def areBracketsBalanced(a):
 			if not stack:
 				return False
 			current_char = stack.pop()
-			if current_char == '(':
-				if char != ")":
+			if current_char == '(' and char != ")":
 					return False
-			if current_char == '{':
-				if char != "}":
+			if current_char == '{' and  char != "}":
 					return False
-			if current_char == '[':
-				if char != "]":
+			if current_char == '[' and	char != "]":
 					return False
 
 	# Check Empty Stack
@@ -47,4 +44,6 @@ if areBracketsBalanced(a):
     print(1)
 else:
     print(0)
+
+
 
