@@ -19,3 +19,11 @@ if flag:
 else:
     
     print('no')
+
+''' alternative to above using list comprehension'''    
+# name=input()
+# vouls = 'aeiouAEIOU'
+# if any(list([True for c in name if c in vouls])):
+#     print('yes')
+# else:
+#     print('no')
